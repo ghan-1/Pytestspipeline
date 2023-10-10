@@ -2,9 +2,8 @@
 name: Run Tests
 
 on:
-  push:
-    branches:
-      - main  # Change this to the branch you want to trigger on
+  [push]
+      # Change this to the branch you want to trigger on
 
 jobs:
   build:
